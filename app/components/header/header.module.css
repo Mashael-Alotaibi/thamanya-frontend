@@ -1,0 +1,26 @@
+.header {
+  padding: 15px 0;
+  color: white;
+  width: 100%;
+  /* border: 1px solid red; */
+  position: fixed;
+  /* left: 225px; */
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  background-color: hsl(238, 27%, 12%);
+}
+.navLogo {
+  padding: 3px 0 0 18px;
+  margin-bottom: 25px;
+}
+@media (min-width: 768px) {
+  .navLogo {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .header {
+    padding-bottom: 0;
+  }
+}

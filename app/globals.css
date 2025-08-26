@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+* {
+  box-sizing: border-box;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+@font-face {
+  font-family: "IBMPlexSansArabic";
+  src: url("/fonts/IBMPlexSansArabic-ExtraLight.otf") format("otf");
+  font-weight: lighter;
+  font-style: normal;
+}
+@font-face {
+  font-family: "IBMPlexSansArabic";
+  src: url("/fonts/IBMPlexSansArabic-Text.otf") format("otf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSansArabic";
+  src: url("/fonts/IBMPlexSansArabic-SemiBold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "IBMPlexSansArabic";
+  src: url("/fonts/IBMPlexSansArabic-Bold.otf") format("otf");
+  font-weight: bolder;
+  font-style: normal;
+}
+
+body {
+  color: white;
+  padding: 1rem;
+  font-size: 14px;
+  background-color: hsl(238, 27%, 12%);
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+  font-family: IBMPlexSansArabic;
+}
+button {
+  border: none;
+  background: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+}

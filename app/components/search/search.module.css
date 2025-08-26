@@ -1,0 +1,22 @@
+.search {
+  border-radius: 5px;
+  height: 32.5px;
+  width: 50%;
+  padding: 7px 10px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: hsla(238, 27%, 12%, 50%);
+  color: hsl(242, 3%, 55%);
+  border-radius: 10px;
+  font-size: 14px;
+  outline: none;
+}
+.search:focus {
+  border: 1px solid #7b7bf0;
+  color: white;
+}
+@media (max-width: 768px) {
+  .search {
+    width: 80%;
+  }
+}
