@@ -19,8 +19,6 @@ const Search = () => {
     (state: any) => state.setSearchMovieData
   );
   const onChange = (event: any) => {
-    // event.preventDefault();
-
     handleSearch(event.target.value);
   };
   const onKeyDown = (event: any) => {
@@ -29,11 +27,9 @@ const Search = () => {
     }
   };
   const handleSearch = (v: string) => {
-    // console.log("Searching for:", v);
     handleGetItunesAudiobookSearch(v);
     handleGetItunesPodcastSearch(v);
     handleGetItunesMovieSearch(v);
-    // console.log("d", d);
   };
   const handleGetItunesAudiobookSearch = async (v: string) => {
     const res = await fetch(

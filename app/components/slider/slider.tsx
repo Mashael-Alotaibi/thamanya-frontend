@@ -53,7 +53,6 @@ const Slider = ({ data, title }: props) => {
       </div>
       <div className={classes.embla} ref={emblaRef}>
         <div className={classes.emblaContainer}>
-          {/* Your carousel slides go here */}
           {data?.map((item: IData, indx: number) => (
             <Card item={item} key={indx} indx={indx} />
           ))}

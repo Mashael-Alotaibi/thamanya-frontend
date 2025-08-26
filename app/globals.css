@@ -51,8 +51,7 @@ body {
   background-color: hsl(238, 27%, 12%);
   padding: 0;
   margin: 0;
-  /* overflow: hidden; */
-  font-family: IBMPlexSansArabic;
+  /* font-family: IBMPlexSansArabic; */
 }
 button {
   border: none;

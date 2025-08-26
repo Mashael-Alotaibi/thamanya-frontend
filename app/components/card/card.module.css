@@ -55,16 +55,16 @@
 }
 @media (max-width: 981px) {
   .emblaSlide {
-    flex: 0 0 30%; /* Breakpoint SM slide covers 50% of the viewport */
+    flex: 0 0 30%;
   }
 }
 @media (max-width: 630px) {
   .emblaSlide {
-    flex: 0 0 40%; /* Breakpoint SM slide covers 50% of the viewport */
+    flex: 0 0 40%;
   }
 }
 @media (max-width: 490px) {
   .emblaSlide {
-    flex: 0 0 50%; /* Breakpoint SM slide covers 50% of the viewport */
+    flex: 0 0 50%;
   }
 }
